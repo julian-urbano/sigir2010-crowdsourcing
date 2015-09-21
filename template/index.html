@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<style>
+<!--
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+h3{
+	font-size:14px;
+}
+.optional {
+	color:#999;
+}
+-->
+</style>
+<h3>Evaluate Melodic Similarity</h3>
+<p>Listen to the following original melody:</p>
+<ul><li><object type="application/x-shockwave-flash" data="./player.swf" width="200" height="20"><param name="movie" value="./player.swf" /><param name="FlashVars" value="mp3=./mp3.trimmed/${topic}.mp3&amp;autoload=1&amp;showstop=1&amp;volume=200&amp;buttoncolor=666666&amp;buttonovercolor=000000&amp;bgcolor1=f5f5f5&amp;bgcolor2=cccccc&amp;sliderovercolor=333333" /></object></li></ul>
+<p>And now to these two variations:</p>
+<ul>
+  <li>Variation A: <object type="application/x-shockwave-flash" data="./player.swf" width="200" height="20"><param name="movie" value="./player.swf" /><param name="FlashVars" value="mp3=./mp3.trimmed/${docA}.mp3&amp;autoload=1&amp;showstop=1&amp;volume=200&amp;buttoncolor=666666&amp;buttonovercolor=000000&amp;bgcolor1=f5f5f5&amp;bgcolor2=cccccc&amp;sliderovercolor=333333" /></object></li>
+<li>Variation B: <object type="application/x-shockwave-flash" data="./player.swf" width="200" height="20"><param name="movie" value="./player.swf" /><param name="FlashVars" value="mp3=./mp3.trimmed/${docB}.mp3&amp;autoload=1&amp;showstop=1&amp;volume=200&amp;buttoncolor=666666&amp;buttonovercolor=000000&amp;bgcolor1=f5f5f5&amp;bgcolor2=cccccc&amp;sliderovercolor=333333" /></object></li>
+</ul>
+<p>Which melody is more similar to the original one?<br />
+<input type="radio" name="radio" value="a" />Variation A.<br />
+<input type="radio" name="radio" value="b" />Variation B.<br />
+<input type="radio" name="radio" value="s" />They are both equally similar or dissimilar to the original melody.</p>
+<p>NOTE: If one melody is part of another one, they shall be considered equally similar.</p>
+<p class="optional">Optional:</p>
+<p class="optional">Do you have a strong musical background? Which one and for how long?<br />
+<textarea name="bground" cols="60" rows="3"></textarea><br />
+Do you have any comments or suggestions? We appreciate your input!<br />
+<textarea name="comment" cols="60" rows="3"></textarea></p>
+</body>
+</html>
