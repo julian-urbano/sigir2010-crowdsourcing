@@ -1,6 +1,6 @@
 This archive contains the data gathered for the following paper:
 
- * J. Urbano, J. Morato, M. Marrero and D. Martín, "[Crowdsourcing Preference Judgments for Evaluation of Music Similarity Tasks](http://julian-urbano.info/wp-content/uploads/012-crowdsourcing-preference-judgments-evaluation-music-similarity-tasks.pdf)", *ACM SIGIR Workshop on Crowdsourcing for Search Evaluation*, 2010.
+ * J. Urbano, J. Morato, M. Marrero and D. Martín, "[Crowdsourcing Preference Judgments for Evaluation of Music Similarity Tasks](http://julian-urbano.info/files/publications/012-crowdsourcing-preference-judgments-evaluation-music-similarity-tasks.pdf)", *ACM SIGIR Workshop on Crowdsourcing for Search Evaluation*, 2010.
 
 A [single ZIP file](https://github.com/julian-urbano/sigir2010-crowdsourcing/archive/master.zip) can be downloaded as well.
 
