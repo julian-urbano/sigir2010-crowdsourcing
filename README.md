@@ -8,13 +8,13 @@ A [single ZIP file](https://github.com/julian-urbano/sigir2010-crowdsourcing/arc
 
 * `template/` HIT template (live version available [here](http://julian-urbano.github.io/sigir2010-crowdsourcing/template/)).
 * `data/judgments.csv` all the information about the HITs submitted to Mechanical Turk. Some relevant columns are:
- * `Input.query` ID of the query.
- * `Input.docA` ID of the first variation.
- * `Input.docB` ID of the second variation.
- * `Input.time` time needed to listen to all three melodies.
- * `Answer.comment` the comment or suggestion, if any.
- * `Answer.bground` the musical background, if any.
- * `Answer.radio` which of the variations was selected: `a`, `b` or `s` (they are the same).
+  * `Input.query` ID of the query.
+  * `Input.docA` ID of the first variation.
+  * `Input.docB` ID of the second variation.
+  * `Input.time` time needed to listen to all three melodies.
+  * `Answer.comment` the comment or suggestion, if any.
+  * `Answer.bground` the musical background, if any.
+  * `Answer.radio` which of the variations was selected: `a`, `b` or `s` (they are the same).
 * `data/MTurk.qrel` the ground truth for all queries. The columns are the literal `MTurk`, the query ID, document ID and group number. 
 
 ## License
